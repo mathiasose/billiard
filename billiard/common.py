@@ -8,7 +8,7 @@ import os
 import signal
 import sys
 
-import pickle as pypickle
+import dill as pypickle
 try:
     import cPickle as cpickle
 except ImportError:  # pragma: no cover

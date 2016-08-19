@@ -11,7 +11,7 @@ from __future__ import absolute_import
 import functools
 import io
 import os
-import pickle
+import dill as pickle
 import socket
 import sys
 
